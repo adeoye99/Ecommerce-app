@@ -1,0 +1,9 @@
+.men__title{
+     margin-top:100px;
+     margin-left:40px;
+     
+}
+.men__row{
+     display: flex;
+     z-index:1;
+}

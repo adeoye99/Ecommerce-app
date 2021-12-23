@@ -1,0 +1,23 @@
+.search{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.search__input{
+    height: 30px;
+    margin-top:auto;
+    margin-bottom:auto;
+    align-items: center;
+
+}
+.search__icon{
+    height: 30px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+}
+@media only screen and (maxwidth:768px){
+    .search{
+        margin-left: 0px;
+    }
+}

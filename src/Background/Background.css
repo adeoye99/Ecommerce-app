@@ -1,0 +1,64 @@
+
+
+.home{
+    background: "url(/Images/ecommercebackground.jpeg)"; 
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.home__centerpiece{
+margin-top: 150px;
+ justify-content: center;
+ text-align: center;
+    
+}
+.home__centerpiece h1{
+    color: white;
+    font-size: 4rem;
+    
+}
+.home__womenbutton{
+    background-color: #778899;
+    color:white;
+    font-size: 1.1rem;
+    height: 80px;
+    width: 300px;
+    
+    
+    margin-top: 10px;
+    border:0;
+
+}
+.home__menbutton{
+    background-color: #778899;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 50px;
+    margin-left: 10px;
+    height: 80px;
+    width: 300px;
+    border:0;
+}
+:hover.home__menbutton{
+    background-color: black;
+}
+:hover.home__womenbutton{
+   background-color: black;
+}
+
+
+@media screen and (max-width = 768px){
+    .home__centerpiece{
+        justify-content: center;
+        text-align: center;
+        margin-top: 25px;
+        font-size: 2rem;
+    }
+    .home__womenbutton{
+        margin-left:none;
+    }
+
+}

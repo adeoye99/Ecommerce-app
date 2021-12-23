@@ -1,0 +1,29 @@
+.product{
+    display:flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin:10px ;
+    width: 100%;
+    text-decoration: none;
+}
+.product__img{
+    max-height: 500px;
+     width:100%;
+     object-fit: contain;
+}
+.product__title {
+    margin-top: 15px;
+    color: black;
+
+}
+.product__price{
+    color: black;
+}
+Link{
+    text-decoration: none;
+}
+.product__link{
+    text-decoration: none;
+}
