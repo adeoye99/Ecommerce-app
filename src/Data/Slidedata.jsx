@@ -1,12 +1,12 @@
-const SlideData = [
+const SlideDatas = [
     {
-        img : "/Images/shoppingbags.jpeg",
+        img : "/Images/backgroundimage2.jpg",
         alt: "shopping bags"
 
     },
     {
-        img : "/Images/sales50%.jpeg",
+        img : "/Images/ecommercebackground.jpeg",
         alt: "shopping bags"    
     },
 ] 
-export default SlideData;
+export default SlideDatas;

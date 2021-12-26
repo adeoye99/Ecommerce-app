@@ -1,6 +1,6 @@
 import React from 'react'
 
-function womenProduct4() {
+function WomenProduct4() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function womenProduct4() {
     )
 }
 
-export default womenProduct4;
+export default WomenProduct4;

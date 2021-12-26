@@ -1,14 +1,15 @@
 import React from 'react';
 import Hero from "../HeroComponent/Hero";
+import SlideDatas from "../Data/Slidedata";
 
-function womenProduct1() {
+function WomenProduct1() {
     return (
         <div>
-            <Hero />
+        
         </div>
     )
 }
 
-export default womenProduct1;
+export default WomenProduct1;
 
 
