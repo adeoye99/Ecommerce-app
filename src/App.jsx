@@ -5,6 +5,7 @@ import Login from './LoginComponents/Login';
 import Home from "./Pages/Home";
 import Men from "./Pages/Men";
 import Women from "./Pages/Women";
+import Createaccount from './Createaccountcomponent/Createaccount';
 import "./App.css";
 import Footer from "./Footercomponent/Footer";
 import Dropdown from "./Dropdowncomponents/Dropdown";
@@ -37,6 +38,7 @@ function App() {
                 <Route path ="/Home" element ={<Home/>}/>
                 <Route  path = "/Men" element ={<Men/>}/>
                 <Route path = "/Women" element ={<Women/>}/>
+                <Route path = "/Createaccount" element ={<Createaccount/>}/>
                 <Route path = "/checkbox" element = {<Checkbox/>}/>
                 <Route path ="/womenProduct1" element ={<WomenProduct1/>}/>
                 <Route path ="/womenProduct2" element ={<WomenProduct2/>}/>
@@ -45,6 +47,7 @@ function App() {
                 <Route path ="/womenProduct5" element ={<WomenProduct5/>}/>
                 <Route path ="/womenProduct6" element ={<WomenProduct6/>}/>
             </Routes>
+            <Footer/>
             </div>
         </Router>
     )

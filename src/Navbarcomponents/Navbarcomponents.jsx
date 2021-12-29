@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 
 export const Nav = styled.nav`
 background-color:#778899;
+opacity:1;
 color : white;
 height: 85px;
 display: flex;
@@ -61,14 +62,14 @@ white-space: nowrap;
 position:sticky;
 top:0
 z-index:100;
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	display: none;
 }
 `
 export const Bars = styled(FaBars)`
 display: none;
 color: #808080;
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	display:block;
 	color:white;
 	justify-content:center;

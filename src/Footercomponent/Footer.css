@@ -1,10 +1,10 @@
 footer{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    text-align: center; 
-    height: 2.5rem;
-}
-footer p{
-    color:black;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
 }

@@ -9,7 +9,9 @@ function Login(){
             <div className = "login__header">
                 <h1>Sign In</h1>
             </div>
+              
                 <div className = "login__option1">
+                    <p className="login__createaccount">Don't have an Account?<Link to = "/Createaccount">Create Account</Link></p>
                     <input  className = "login__email" type = "text" placeholder="Email or Phone Number"/>
                 </div>
                 <div className = "login__option2"> 
@@ -25,9 +27,6 @@ function Login(){
                    <p>forgot password?</p>
                 </div>
                 </Link>
-                <div className = "login__option4">
-                    <button className = "login__createaccountbutton" type = "submit">Create Account</button>
-                </div>   
         </div>
     )
 

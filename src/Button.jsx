@@ -24,7 +24,7 @@ padding: 15px;
     text-align:center;
     justify-content:center;
     width:200px;
-    margin-right: 10px;
+    margin-right:auto;
     margin-bottom:30px;
     padding: 15px;
 }
