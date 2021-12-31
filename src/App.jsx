@@ -40,7 +40,7 @@ function App() {
                 <Route path = "/Women" element ={<Women/>}/>
                 <Route path = "/Createaccount" element ={<Createaccount/>}/>
                 <Route path = "/checkbox" element = {<Checkbox/>}/>
-                <Route path ="/womenProduct1" element ={<WomenProduct1/>}/>
+                <Route path ="/Women/womenProduct1" element ={<WomenProduct1/>}/>
                 <Route path ="/womenProduct2" element ={<WomenProduct2/>}/>
                 <Route path ="/womenProduct3" element ={<WomenProduct3/>}/>
                 <Route path ="/womenProduct4" element ={<WomenProduct4/>}/>

@@ -4,39 +4,64 @@ import SlideDatas from "../Data/Slidedata";
 import { Link } from "react-router-dom"
 import {IoMdArrowRoundForward} from "react-icons/io";
 import { IoArrowBack,IoArrowForward } from "react-icons/io5";
-import Button  from "../Button";
+
 
 
 const HeroSection = styled.section`
 height: 100vh;
 max-height: 1100px;
-position:relative;
-overflow:hidden;
 display:flex;
 @media only screen and (max-width:768px){
     justify-content:center;
+    display:flex;
+    flex-direction:column;
 }
 `
 
 const Herowrapper = styled.div`
+position:relative;
 width:50%;
+float:left;
 height:100%;
+overflow:hidden;
 display:flex;
 justify-content:center;
 align-items:center;
-overflow:hidden;
-position:relative;
+margin:0;
+
+@media  screen and (max-width:768px){
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    margin:0;
+
+}
+
 `
 const HeroSlide = styled.div`
-z-index:1;
+postion: relative;
 width:50%;
-height:50%;
+height:100%;
+@media only screen and (max-width:768px){
+    height:100vh;
+    width:100%;
+}
+`
+const Button = styled.button`
+width: 400px;
+height:50px;
+margin-top:100px;
+@media only screen and (max-width:768px){
+    width:200px;
+    margin-top:0px;
+}
+
 `
 const HeroSlider= styled.div`
-position: absolute;
+position:absolute;
 top:0;
 left:0;
-width:50%;
+width:100%;
 height:100%;
 display:flex;
 align-items:center;
@@ -59,14 +84,21 @@ justify-content:center;
         rgba(0,0,0,0.6) 100%,
     )
 }
+@media only screen and (max-width:768px){
+     height:100vh;
+ 
+}
 `
 const HeroImage = styled.img`
-position:absolute;
-top:0;
-left:0;
+
 width:50vw;
 height:100vh;
 object-fit: cover;
+@media screen and (max-width:768px){
+    height:100%;
+    width:100vw;
+}
+
 `
 const Arrow = styled(IoMdArrowRoundForward)`
    
@@ -103,10 +135,12 @@ const NextArrow = styled(IoArrowForward)`
 ${arrowButtons}
 `
 const HeroContent = styled.div`
-position:absolute;
-top:100px;
-right:400px;
+padding: 20px 50px;
+@media only screen and (max-width:768px){
+    width:100%;
+    margin-top:0;
 
+    
 }`
 const HeroTitle = styled.div`
      margin-bottom: 50px;
@@ -114,8 +148,32 @@ const HeroTitle = styled.div`
      text-align:center;
      justify-content: center;
 `
+const Filter = styled.div`
+ display: flex;
+ 
+`
+const Describ = styled.span`
 
-function ProductSlider({slides}) {
+`
+const ProductName = styled.h2`
+
+
+`
+
+const FilterTitle = styled.p`
+ font-size: 1.5rem;
+ font-weight: 300;
+`
+const FilterSize = styled.select`
+justify-content: space-between;
+margin-left:10px;
+padding:5px;
+`
+const FilterOption = styled.option`
+
+`
+
+function ProductSlider({slides,title,description}) {
     const [current,setCurrent] = useState(0)
     const length = slides.length;
     const timeout = useRef(null);
@@ -163,15 +221,24 @@ function ProductSlider({slides}) {
                 <NextArrow onClick = {nextSlide}/>
                </SliderButton>  
             </Herowrapper>
-            <HeroContent>
-                <h1>DESCRIPTION</h1>
-                <p>A place</p>
-                <h1>SIZES</h1>
-                <h1>TYPES</h1>
-
-                <button className='product__addtocartbutton' type = "submit">ADD TO CART</button>
-                  <Button type =  "submit" to = "/"> ADD TO CART </Button>
-                </HeroContent>
+          
+           <HeroContent>
+               <ProductName>{title}</ProductName>
+                <Describ>
+                    {description}
+               </Describ>
+               <Filter>
+                   <FilterTitle>Size</FilterTitle>
+                   <FilterSize>
+                       <FilterOption>S</FilterOption>
+                       <FilterOption>M</FilterOption>
+                       <FilterOption>L</FilterOption>
+                       <FilterOption>XL</FilterOption>
+                       <FilterOption>XXL</FilterOption>
+                   </FilterSize>
+               </Filter>
+               <Button>ADD TO CART</Button>
+            </HeroContent>
          </HeroSection>
     )
 }

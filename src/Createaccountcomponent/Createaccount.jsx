@@ -16,6 +16,7 @@ function Createaccount() {
                    <input className = "login__password" type = "password" placeholder = "Password"/>
                 </div>
                 <div> 
+                   <input className = "login__password" type = "password" placeholder = "Confirm Password"/>
                 </div>
                 <div className = "login__option3">
                     <button  className = "login__button" type = "submit">Create Account</button>

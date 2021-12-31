@@ -17,7 +17,7 @@ function Women() {
                 img= "/Images/skirt.jpeg"
                 title="Mid-Length Skirt"
                 price = "Navy Blue Stretch-Cotton Gabardine"
-                link = "/womenProduct1"
+                link = "/Women/womenProduct1"
                 />
                  <Product
                 id ="2"
