@@ -20,10 +20,11 @@ function Navbar({toggle}) {
                         Women
                     </NavLink>
                 </NavMenu>
-                <Icon to = "/checkbox">
-                       <ShoppingCartIcon/>
-                       <p>0</p>
-                 </Icon> 
+                     <Icon to ="checkout">
+                        <ShoppingCartIcon/>
+                        <p>0</p>
+                     </Icon>
+                           
         </Nav>
         </div>
             

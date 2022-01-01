@@ -15,9 +15,11 @@ function WomenProduct1() {
             <ProductSlider slides = {Productdata} 
             title = "MID-LENGTH SKIRT" 
             description ="Navy Blue Stretch Cotton Gabardine"
+            price ="$20"
             />
-            <Suggestion/>
-               </div>
+            <hr/>
+            <Suggestion className= "suggestion"/>
+           </div>
         </div>
          
         )

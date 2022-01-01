@@ -1,10 +1,11 @@
 import React from 'react'
 import Product from "../Productcomponent/Product"
+import "./Suggestion.css";
 
 function Suggestion() {
     return (
-        <div className='suggestion__title'>
-            <h3>SUGGESTIONS</h3>
+        <div className='suggestion'>
+            <h2 className='suggestion__title'>SUGGESTIONS</h2>
             <div className = "women__row">
                 <Product
                 id ="3"

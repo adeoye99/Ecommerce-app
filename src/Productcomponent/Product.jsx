@@ -3,7 +3,6 @@ import "./Product.css";
 import { Link } from "react-router-dom";
 
 function Product(props) {
-    console.log(props)
     return (
         <div className = "product">
             <Link className='product__link' to = {`${props.link}`}>

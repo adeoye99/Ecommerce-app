@@ -53,7 +53,7 @@ height:50px;
 margin-top:100px;
 @media only screen and (max-width:768px){
     width:200px;
-    margin-top:0px;
+    margin-top:10px;
 }
 
 `
@@ -172,8 +172,9 @@ padding:5px;
 const FilterOption = styled.option`
 
 `
+const Price = styled.p``
 
-function ProductSlider({slides,title,description}) {
+function ProductSlider({slides,title,description,price}) {
     const [current,setCurrent] = useState(0)
     const length = slides.length;
     const timeout = useRef(null);
@@ -227,6 +228,9 @@ function ProductSlider({slides,title,description}) {
                 <Describ>
                     {description}
                </Describ>
+               <Price>
+                   {price}
+               </Price>
                <Filter>
                    <FilterTitle>Size</FilterTitle>
                    <FilterSize>

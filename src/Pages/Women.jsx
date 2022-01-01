@@ -35,7 +35,7 @@ function Women() {
                 img= "/Images/femalejacket.jpeg"
                 title= "D-Way Windbreaker"
                 price="Gold-Tone Technical Taffeta Jacquard with Toile de Jouy Motif"
-                link = "/ womenProduct3"
+                link = "/womenProduct3"
                 />
                <Product
                 id ="4"
@@ -65,17 +65,20 @@ function Women() {
                 img= "/Images/D-way Long Windbreaker.jpeg"
                 price= ""
                 title="D-way Long Windbreaker"
+                link ="/womenProduct6"
                 />
              <Product
                 id ="7"
                 img= "/Images/DiorAlps Hooded Anorak.jpeg"
                 title =" DiorAlps Hooded Anorak"
+                link = "/womenProduct7"
                 />
                <Product
                 id ="1"
                 img= "/Images/Dioralps Cropped Down Jacket.jpeg"
                 price= "$49.65"
                 title="Dioralps Cropped Down Jacket"
+                link = "/womenProduct8"
                 />
             </div>
             
@@ -85,18 +88,20 @@ function Women() {
                 img= "/Images/Hooded Coat with Belt.jpeg"
                 price= "$49.65"
                 title="Hooded Coat with Belt"
-                link = "/womenProduct5"
+                link = "/womenProduct9"
                 />
                  <Product
                 id ="1"
                 img= "/Images/Reversible Blouson.jpeg"
                 title ="Reversible Blouson"
+                link="/womenProduct10"
                 />
                  <Product
                 id ="1"
                 img= "/Images/Long Coat.jpeg"
                 price= "$49.65"
                 title="Long Coat"
+                link = "/womenProduct11"
                 />
             </div>
            
