@@ -48,6 +48,8 @@ height:100%;
 }
 `
 const Button = styled.button`
+background-color:#778899;
+color:white;
 width: 400px;
 height:50px;
 margin-top:100px;
@@ -55,6 +57,10 @@ margin-top:100px;
     width:200px;
     margin-top:10px;
 }
+&:hover{
+    background:black;
+}
+
 
 `
 const HeroSlider= styled.div`

@@ -16,11 +16,11 @@ import WomenProduct3 from "./Pages/womenProduct3";
 import WomenProduct4 from "./Pages/womenProduct4";
 import WomenProduct5 from "./Pages/womenProduct5";
 import WomenProduct6 from "./Pages/womenProduct6";
-import WomenProduct7 from "./Pages/womenProduct7";
-import WomenProduct8 from "./Pages/womenProduct8";
-import WomenProduct9 from "./Pages/womenProduct9";
-import WomenProduct10 from "./Pages/womenProduct10";
-import WomenProduct11 from "./Pages/womenProduct11";
+import WomenProduct7 from "./Pages/WomenProduct7";
+import WomenProduct8 from "./Pages/WomenProduct8";
+import WomenProduct9 from "./Pages/WomenProduct9";
+import WomenProduct10 from "./Pages/WomenProduct10";
+import WomenProduct11 from "./Pages/WomenProduct11";
 
 
 

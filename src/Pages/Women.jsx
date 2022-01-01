@@ -24,7 +24,7 @@ function Women() {
                 img= "/Images/skirt2.jpeg"
                 title= "Mid-length Skirt with Pockets "
                 price="WHite and Black Under the Sea Cotton Poplin"
-                link = "/womenProduct2"
+                link = "/Women/womenProduct2"
                 />
 
             </div>
@@ -35,27 +35,27 @@ function Women() {
                 img= "/Images/femalejacket.jpeg"
                 title= "D-Way Windbreaker"
                 price="Gold-Tone Technical Taffeta Jacquard with Toile de Jouy Motif"
-                link = "/womenProduct3"
+                link = "/Women/womenProduct3"
                 />
                <Product
                 id ="4"
                 img= "/Images/Hooded Anorak.webp"
                 title="Hooded Anorak"
                 price= "Blue and Ecru Technical Taffeta Jacquard with Diorr Oblique Motif"
-                link = "/womenProduct4"
+                link = "/Women/womenProduct4"
                 />
                  <Product
                 id ="5"
                 img= "/Images/femalecoat.jpeg"
                 price= "Beige lined Technical Cotton"
                 title="Trench Coat"
-                link="/womenProduct5"
+                link="/Women/womenProduct5"
                 />
             </div>
             <div className = "women__row">
                  <Product
                   id ="7"
-                  img= "/Images/womenfashion.jpeg"
+                  img= "/Women/Images/womenfashion.jpeg"
                   title="Women's Fashion"
                   />
             </div>
@@ -65,7 +65,7 @@ function Women() {
                 img= "/Images/D-way Long Windbreaker.jpeg"
                 price= ""
                 title="D-way Long Windbreaker"
-                link ="/womenProduct6"
+                link ="/Women/womenProduct6"
                 />
              <Product
                 id ="7"
