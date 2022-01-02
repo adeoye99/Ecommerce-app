@@ -55,6 +55,14 @@ function App() {
                 <Route path = "/Women/womenProduct9" element = {<WomenProduct9/>}/>
                 <Route path = "/Women/womenProduct10" element = {<WomenProduct10/>}/>
                 <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Men/MenProduct1" element = {<MenProduct1/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
             </Routes>
             <Footer/>
             </div>

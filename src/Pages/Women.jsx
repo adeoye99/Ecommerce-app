@@ -55,7 +55,7 @@ function Women() {
             <div className = "women__row">
                  <Product
                   id ="7"
-                  img= "/Women/Images/womenfashion.jpeg"
+                  img= "/Images/womenfashion.jpeg"
                   title="Women's Fashion"
                   />
             </div>

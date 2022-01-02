@@ -1,15 +1,15 @@
 const Productdata10 = [
     {
-        img:"/Images/skirt2slide.jpeg",
+        img:"/Images/reversible blouson slide1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/skirt2slide2.jpeg",
+        img:"/Images/reversible blouson slide2.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/reversible blouson slide3.jpeg",
         alt:"skirt"
 
     }

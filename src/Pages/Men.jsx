@@ -17,21 +17,21 @@ function Men() {
                 img="/Images/t-shirt.jpeg"
                 price= "$49.65"
                 title="Oversized 'Christian Dior Atelier' T-shirt GrayWool and Cotton Jersey"
-                link="/womenProduct1"
+                link="/Men/MenProduct1"
                 />
                  <Product
                 id = "2"
                 img="/Images/t-shirt2.jpeg"
                 price= "$49.65"
                 title="CD Icon T-shirt Olive Cotton jersey"
-                link="/womenProduct1"
+                link="/Men/MenProduct2"
                 />
                  <Product
                 id = "3"
                 img="/Images/t-shirt3.jpeg"
                 price= "$39.65"
                 title= "Oversized Dior Oblique T-shirt "
-                link="/womenProduct1"
+                link="/Men/MenProduct3"
                 />
             </div>
             <div className = "men__row">
@@ -46,21 +46,21 @@ function Men() {
                 img="/Images/jacket.jpeg"
                 price= "$79.65"
                 title="Dior peter Doig reversible Blouson Grey Technical Wool Jacquard"
-                link="/womenProduct1"
+                link="/Men/MenProduct4"
                 />
                  <Product
                 id = "6"
                 img="/Images/jacket2.jpeg"
                 price= "$49.65"
                 title="Dior and Peter Doig Sweater"
-                link="/womenProduct1"
+                link="/Men/MenProduct5"
                 />
                  <Product
                 id = "7"
                 img="/Images/jacket4.jpeg"
                 price= "$9.65"
                 title="Dior and Descente Hooded Down Jacket"
-                link="/womenProduct1"
+                link="/Men/MenProduct6"
                 />
             </div>
             <div className = "men__row">
@@ -69,14 +69,14 @@ function Men() {
                 img="/Images/jacket5.jpeg"
                 price= "$49.65"
                 title="Dior and Descente Hooded Down Jacket"
-                link="/womenProduct1"
+                link="/Men/MenProduct7"
                 />
                  <Product
                 id = "9"
                 img="/Images/jacket6.jpeg"
                 price= "$49.65"
                 title="Dior and Descente Hooded Park"
-                link="/womenProduct1"
+                link="/Men/MenProduct8"
                 />
             </div>
             <div className = "men__row">
