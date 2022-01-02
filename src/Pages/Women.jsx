@@ -71,14 +71,14 @@ function Women() {
                 id ="7"
                 img= "/Images/DiorAlps Hooded Anorak.jpeg"
                 title =" DiorAlps Hooded Anorak"
-                link = "/womenProduct7"
+                link = "/Women/womenProduct7"
                 />
                <Product
                 id ="1"
                 img= "/Images/Dioralps Cropped Down Jacket.jpeg"
                 price= "$49.65"
                 title="Dioralps Cropped Down Jacket"
-                link = "/womenProduct8"
+                link = "/Women/womenProduct8"
                 />
             </div>
             
@@ -88,20 +88,20 @@ function Women() {
                 img= "/Images/Hooded Coat with Belt.jpeg"
                 price= "$49.65"
                 title="Hooded Coat with Belt"
-                link = "/womenProduct9"
+                link = "/Women/womenProduct9"
                 />
                  <Product
                 id ="1"
                 img= "/Images/Reversible Blouson.jpeg"
                 title ="Reversible Blouson"
-                link="/womenProduct10"
+                link="/Women/womenProduct10"
                 />
                  <Product
                 id ="1"
                 img= "/Images/Long Coat.jpeg"
                 price= "$49.65"
                 title="Long Coat"
-                link = "/womenProduct11"
+                link = "/Women/womenProduct11"
                 />
             </div>
            

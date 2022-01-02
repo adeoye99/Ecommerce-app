@@ -1,15 +1,15 @@
 const Productdata8 = [
     {
-        img:"/Images/skirt2slide.jpeg",
+        img:"/Images/dioralps cropped down jacket slide1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/skirt2slide2.jpeg",
+        img:"/Images/dioralps cropped down jacket slide2.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/dioralps cropped down jacket slide3.jpeg",
         alt:"skirt"
 
     }

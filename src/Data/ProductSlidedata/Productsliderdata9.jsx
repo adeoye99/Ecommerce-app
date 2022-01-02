@@ -1,15 +1,15 @@
 const Productdata9 = [
     {
-        img:"/Images/skirt2slide.jpeg",
+        img:"/Images/hooded coat with belt1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/skirt2slide2.jpeg",
+        img:"/Images/hooded coat with belt slide2.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/hooded coat with belt3.jpeg",
         alt:"skirt"
 
     }
