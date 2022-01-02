@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductSlider from "../Productslidercomponent/ProductSlider"
-import { Productdata } from '../Data/Productslidedata';
+import   Productdata  from '../Data/ProductSlidedata/Productslidedata1';
 import "./womenProduct1.css";
 import Suggestion from "../Suggestioncomponent/Suggestion"
 import ProductContent from "../Data/Productdata";
