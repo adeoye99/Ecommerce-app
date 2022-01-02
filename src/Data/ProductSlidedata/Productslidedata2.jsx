@@ -9,7 +9,7 @@ const Productdata2 = [
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/skirt2slide3.jpeg",
         alt:"skirt"
 
     }

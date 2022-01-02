@@ -1,15 +1,15 @@
 const Productdata5 = [
     {
-        img:"/Images/skirt2slide.jpeg",
+        img:"/Images/trench coat slide1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/skirt2slide2.jpeg",
+        img:"/Images/trench coat slide2.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/trench coat slide3.jpeg",
         alt:"skirt"
 
     }
