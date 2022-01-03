@@ -21,7 +21,14 @@ import WomenProduct8 from "./Pages/WomenProduct8";
 import WomenProduct9 from "./Pages/WomenProduct9";
 import WomenProduct10 from "./Pages/WomenProduct10";
 import WomenProduct11 from "./Pages/WomenProduct11";
-
+import MenProduct1 from "./Pages/MenProduct1";
+import MenProduct2 from "./Pages/MenProduct2";
+import MenProduct3 from "./Pages/MenProduct3";
+import MenProduct4 from "./Pages/MenProduct4";
+import MenProduct5 from "./Pages/MenProduct5";
+import MenProduct6 from "./Pages/MenProduct6";
+import MenProduct7 from "./Pages/MenProduct7";
+import MenProduct8 from "./Pages/MenProduct8";
 
 
 
@@ -56,13 +63,13 @@ function App() {
                 <Route path = "/Women/womenProduct10" element = {<WomenProduct10/>}/>
                 <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
                 <Route path = "/Men/MenProduct1" element = {<MenProduct1/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
-                <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct2/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct3/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct4/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct5/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct6/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct7/>}/>
+                <Route path = "/Women/womenProduct11" element = {<MenProduct8/>}/>
             </Routes>
             <Footer/>
             </div>
