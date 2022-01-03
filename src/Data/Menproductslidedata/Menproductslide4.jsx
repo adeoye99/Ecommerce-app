@@ -1,15 +1,15 @@
 const Menproductdata4 = [
     {
-        img:"/Images/skirt.jpeg",
+        img:"/Images/dior and peter doig reversible blouson slide1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/WomenProduct1slides2.jpeg",
+        img:"/Images/dior and peter doig reversible blouson slide2.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/dior and peter doig reversible blouson slide3.jpeg",
         alt:"skirt"
 
     }

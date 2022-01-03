@@ -1,15 +1,15 @@
 const Menproductdata6 = [
     {
-        img:"/Images/skirt.jpeg",
+        img:"/Images/dior and descente hooded down jacket slide1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/WomenProduct1slides2.jpeg",
+        img:"/Images/dior and descente hooded down jacket slide3.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/dior and descente hooded down jacket slide3.jpeg",
         alt:"skirt"
 
     }

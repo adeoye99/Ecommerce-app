@@ -1,15 +1,15 @@
 const Menproductdata5 = [
     {
-        img:"/Images/skirt.jpeg",
+        img:"/Images/dior and peter doig sweater slide1.jpeg",
         alt:"skirt"
 
     },
     {
-        img:"/Images/WomenProduct1slides2.jpeg",
+        img:"/Images/dior and peter doig sweater slide2.jpeg",
         alt:"skirt"
     },
     {
-        img:"/Images/WomenProduct1slides.jpeg",
+        img:"/Images/dior and peter doig sweater slide3.jpeg",
         alt:"skirt"
 
     }

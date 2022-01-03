@@ -63,13 +63,13 @@ function App() {
                 <Route path = "/Women/womenProduct10" element = {<WomenProduct10/>}/>
                 <Route path = "/Women/womenProduct11" element = {<WomenProduct11/>}/>
                 <Route path = "/Men/MenProduct1" element = {<MenProduct1/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct2/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct3/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct4/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct5/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct6/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct7/>}/>
-                <Route path = "/Women/womenProduct11" element = {<MenProduct8/>}/>
+                <Route path = "/Men/MenProduct2" element = {<MenProduct2/>}/>
+                <Route path = "/Men/MenProduct3" element = {<MenProduct3/>}/>
+                <Route path = "/Men/MenProduct4" element = {<MenProduct4/>}/>
+                <Route path = "/Men/MenProduct5" element = {<MenProduct5/>}/>
+                <Route path = "/Men/MenProduct6" element = {<MenProduct6/>}/>
+                <Route path = "/Men/MenProduct7" element = {<MenProduct7/>}/>
+                <Route path = "/Men/MenProduct8" element = {<MenProduct8/>}/>
             </Routes>
             <Footer/>
             </div>
