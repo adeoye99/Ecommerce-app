@@ -11,9 +11,9 @@ function WomenProduct9() {
         <div>
              <div className = "womenproduct__row">
             <ProductSlider slides = {Productdata9} 
-            title = "MID-LENGTH SKIRT" 
-            description ="Navy Blue Stretch Cotton Gabardine"
-            price ="$20"
+            title = "COAT" 
+            description ="Blue Double-Sided Wool"
+            price ="$50.33"
             />
             <hr/>
             <Suggestion className= "suggestion"/>

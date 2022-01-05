@@ -10,9 +10,9 @@ function WomenProduct6() {
         <div>
              <div className = "womenproduct__row">
             <ProductSlider slides = {Productdata6} 
-            title = "MID-LENGTH SKIRT" 
-            description ="Navy Blue Stretch Cotton Gabardine"
-            price ="$20"
+            title = "D-WAY LONG WINDBREAKER" 
+            description ="Black AND White Technical Taffeta Jacquard and Macro Houndstooth Motif"
+            price ="$30.99"
             />
             <hr/>
             <Suggestion className= "suggestion"/>

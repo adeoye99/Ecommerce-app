@@ -7,6 +7,7 @@ function Mensuggestion() {
     return (
         <div>
              <h2 className='suggestion__title'>SUGGESTIONS</h2>
+             <div className = "women__row">
              <Product
                 id = "5"
                 img="/Images/jacket.jpeg"
@@ -28,7 +29,7 @@ function Mensuggestion() {
                 title="Dior and Descente Hooded Down Jacket"
                 link="/Men/MenProduct6"
                 />
-            
+            </div>
         </div>
     )
 }

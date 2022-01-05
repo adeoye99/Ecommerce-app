@@ -9,8 +9,8 @@ function MenProduct4() {
         <div>
             <div className = "womenproduct__row">
             <ProductSlider slides = {Menproductdata4} 
-            title = "MID-LENGTH SKIRT" 
-            description ="Navy Blue Stretch Cotton Gabardine"
+            title = "DIOR PETER DOIG REVERSIBLE BLOUSON " 
+            description ="Grey "
             price ="$20"
             />
             <hr/>
