@@ -19,6 +19,9 @@ function Navbar({toggle}) {
                     <NavLink to = "/Women">
                         Women
                     </NavLink>
+                    <NavLink to = "/login">
+                        Login
+                    </NavLink>
                 </NavMenu>
                      <Icon to ="checkout">
                         <ShoppingCartIcon/>
