@@ -12,6 +12,11 @@ const menuData = [
         link: "/Women",
         title:"Women"
 
+    },
+     {
+        link: "/login",
+        title:"Login"
+
     }
 ]
 export default menuData;

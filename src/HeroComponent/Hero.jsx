@@ -114,26 +114,35 @@ color:white;
 justify-content: center;
 text-align: center;
 h1{
-    
-   
     text-align:center;
 
 }
 
-@media only screen and (max-width:768px){
+@media screen and (max-width:425px){
     position:relative;
     top:20px;
-    right:35%;
+    right:20%;
     justify-content: center;
     text-align: center;
     display: flex;
     flex-direction:column;
     h1{
-        margin-left:90px;
+        margin-left:30px;
         justify-content:center;
         text-align:center;
     }
+    
+    @media only screen and (width:320px){
+    
+        right:109px;
+        h1{
+            margin-left:100px;
+        }
+
+    }
+
 }
+
 
 
 `
