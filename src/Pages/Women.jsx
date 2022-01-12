@@ -75,7 +75,7 @@ function Women() {
                 />
                <Product
                 id ="1"
-                img= "/Images/Dioralps Cropped Down Jacket.jpeg"
+                img= "/Images/DiorAlps Cropped Down Jacket.jpeg"
                 price= "$49.65"
                 title="Dioralps Cropped Down Jacket"
                 link = "/Women/womenProduct8"

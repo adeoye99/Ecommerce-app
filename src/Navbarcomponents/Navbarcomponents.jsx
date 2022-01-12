@@ -57,9 +57,8 @@ text-decoration:none;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-left: 600px;
+margin-left: 400px;
 white-space: nowrap; 
-position:sticky;
 top:0
 z-index:100;
 @media screen and (max-width: 1024px) {
