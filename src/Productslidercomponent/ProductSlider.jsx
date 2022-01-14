@@ -4,6 +4,7 @@ import SlideDatas from "../Data/Slidedata";
 import { Link } from "react-router-dom"
 import {IoMdArrowRoundForward} from "react-icons/io";
 import { IoArrowBack,IoArrowForward } from "react-icons/io5";
+import { useStateValue } from '../LoginComponents/StateProvider';
 
 
 
@@ -182,6 +183,17 @@ const Price = styled.p``
 
 function ProductSlider({slides,title,description,price}) {
     const [current,setCurrent] = useState(0)
+    const [{myCart},dispatch] = useStateValue()
+    const addToMylist = () => {
+      
+         dispatch ({
+             type : "ADD_TO_MYLIST",
+             item: {
+               src:img,
+               alt: alt
+             }
+         })
+    }
     const length = slides.length;
     const timeout = useRef(null);
     useEffect(() =>{
@@ -247,7 +259,7 @@ function ProductSlider({slides,title,description,price}) {
                        <FilterOption>XXL</FilterOption>
                    </FilterSize>
                </Filter>
-               <Button>ADD TO CART</Button>
+               <Button onClick = {addToMylist}>ADD TO CART</Button>
             </HeroContent>
          </HeroSection>
     )
