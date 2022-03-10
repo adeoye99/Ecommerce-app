@@ -19,7 +19,6 @@ event.preventDefault();
 
   
     return (
-      
         <div>
              < div className ="login">
                <div className = "login__header">
@@ -34,11 +33,9 @@ event.preventDefault();
                  <div className = "login__option3">
                     <button onClick = {register} className = "login__button" type = "submit">Create Account</button>
                  </div>
-        </div>
-
-            
+              </div>
         </div>
     )
 }
 
-export default Createaccount
+export default Createaccount;

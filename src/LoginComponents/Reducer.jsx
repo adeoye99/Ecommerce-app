@@ -25,7 +25,7 @@ const reducer = (state, action) => {
             );
 
         }
-            return { ...state,mylist : newmylist }
+            return { ...state,mycart : newmycart }
 
             default:
                 return state;

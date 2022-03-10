@@ -5,7 +5,7 @@ import Login from './LoginComponents/Login';
 import Home from "./Pages/Home";
 import Men from "./Pages/Men";
 import Women from "./Pages/Women";
-import Createaccount from './Createaccountcomponent/Createaccount';
+import Createaccount from './Logincomponents/Createaccount';
 import "./App.css";
 import Footer from "./Footercomponent/Footer";
 import Dropdown from "./Dropdowncomponents/Dropdown";

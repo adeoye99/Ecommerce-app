@@ -8,7 +8,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height:100%;
-  background:white ;
+  background:white;
   display: grid;
   align-items:center;
   top:0;
